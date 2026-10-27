@@ -3,7 +3,7 @@ TopOfStack = -1
 for i in range(8):
     Stack.append("")
 
-
+ 
 def Push(Word):
     global Stack, TopOfStack
     if TopOfStack == 7:
